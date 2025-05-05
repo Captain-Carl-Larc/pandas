@@ -43,3 +43,23 @@ subset_df = df[['Name', 'Age']]
 # Select a single row by index
 row_0 = df.loc[0]
 # print(row_0)
+
+# Select a row by integer position
+row_1 = df.iloc[1]
+# print(row_1)
+
+# Select a specific value
+age_of_bob = df.loc[1, 'Age']
+print(age_of_bob) #30
+
+# Select a subset of rows and columns
+subset_df = df.loc[0:2, ['Name', 'Age']]
+# print(subset_df)
+
+# Select rows based on a condition
+adults = df[df['Age'] >= 25]
+# print(adults)
+
+# Select rows based on multiple conditions
+london_residents = df[(df['City'] == 'London') & (df['Age'] < 30)]
+# print(london_residents)
