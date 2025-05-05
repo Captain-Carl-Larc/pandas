@@ -11,3 +11,7 @@ df = pd.DataFrame(data)
 
 # Display the first 5 rows
 print(df.head(2))
+
+# display last 3
+print(df)
+print(df.tail(3))
