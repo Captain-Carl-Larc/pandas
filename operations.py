@@ -50,11 +50,11 @@ row_1 = df.iloc[1]
 
 # Select a specific value
 age_of_bob = df.loc[1, 'Age']
-print(age_of_bob) #30
+# print(age_of_bob) #30
 
 # Select a subset of rows and columns
 subset_df = df.loc[0:2, ['Name', 'Age']]
-# print(subset_df)
+print(subset_df)
 
 # Select rows based on a condition
 adults = df[df['Age'] >= 25]
