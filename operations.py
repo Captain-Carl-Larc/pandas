@@ -38,4 +38,8 @@ names = df.Name  # syntax : dfName.NameOfColumn
 
 # Select multiple columns
 subset_df = df[['Name', 'Age']]
-print(subset_df)
+# print(subset_df)
+
+# Select a single row by index
+row_0 = df.loc[0]
+# print(row_0)
