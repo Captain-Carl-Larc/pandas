@@ -29,4 +29,4 @@ df = pd.DataFrame(data)
 # print(df.columns)
 
 # Get the index
-print(df.index)
+# print(df.index)
