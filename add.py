@@ -18,4 +18,8 @@ df['SalaryIncrease'] = df['Salary'] * 0.1
 
 # Add a new column with a default value
 df['Bonus'] = 1000
-print(df.head())
+# print(df.head())
+
+# Insert a column at a specific position
+df.insert(2, 'Department', ['HR', 'Engineering', 'Finance', 'Engineering', 'HR'])
+# print(df.head())
