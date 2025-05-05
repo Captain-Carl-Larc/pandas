@@ -26,4 +26,7 @@ df = pd.DataFrame(data)
 # print(df.shape)
 
 # Get the column names
-print(df.columns)
+# print(df.columns)
+
+# Get the index
+print(df.index)
