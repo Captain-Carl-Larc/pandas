@@ -10,8 +10,11 @@ df = pd.DataFrame(data)
 # print(df)
 
 # Display the first 5 rows
-print(df.head(2))
+# print(df.head(2))
 
 # display last 3
-print(df)
-print(df.tail(3))
+# print(df)
+# print(df.tail(3))
+
+# Get information about the DataFrame (data types, non-null values, etc.)
+print(df.info())
