@@ -7,4 +7,7 @@ data = {
     'Salary': [50000, 60000, 45000, 70000, 55000]
 }
 df = pd.DataFrame(data)
-print(df)
+# print(df)
+
+# Display the first 5 rows
+print(df.head())
