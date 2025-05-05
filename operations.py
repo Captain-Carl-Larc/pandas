@@ -30,3 +30,7 @@ df = pd.DataFrame(data)
 
 # Get the index
 # print(df.index)
+
+# Select a single column
+names = df.Name  # syntax : dfName.NameOfColumn
+print(names)
