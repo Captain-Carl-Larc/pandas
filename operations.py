@@ -32,5 +32,10 @@ df = pd.DataFrame(data)
 # print(df.index)
 
 # Select a single column
+namesOpt = df['Name']
 names = df.Name  # syntax : dfName.NameOfColumn
-print(names)
+# print(names)
+
+# Select multiple columns
+subset_df = df[['Name', 'Age']]
+print(subset_df)
