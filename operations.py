@@ -10,4 +10,4 @@ df = pd.DataFrame(data)
 # print(df)
 
 # Display the first 5 rows
-print(df.head())
+print(df.head(2))
