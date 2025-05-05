@@ -23,3 +23,8 @@ df['Bonus'] = 1000
 # Insert a column at a specific position
 df.insert(2, 'Department', ['HR', 'Engineering', 'Finance', 'Engineering', 'HR'])
 # print(df.head())
+
+
+# Modify a column
+df['Age'] = df['Age'] + 1
+# print(df.head())
