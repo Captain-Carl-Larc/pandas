@@ -14,4 +14,8 @@ df['Salary'] = [50000, 60000, 45000, 70000, 55000]
 
 # Add a new column based on existing columns
 df['SalaryIncrease'] = df['Salary'] * 0.1
+# print(df.head())
+
+# Add a new column with a default value
+df['Bonus'] = 1000
 print(df.head())
