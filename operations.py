@@ -20,4 +20,7 @@ df = pd.DataFrame(data)
 # print(df.info())
 
 # Get descriptive statistics (mean, std, min, max, etc.) for numerical columns
-print(df.describe())
+# print(df.describe())
+
+# Get the shape of the DataFrame (number of rows and columns)
+print(df.shape)
