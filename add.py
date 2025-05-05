@@ -28,3 +28,8 @@ df.insert(2, 'Department', ['HR', 'Engineering', 'Finance', 'Engineering', 'HR']
 # Modify a column
 df['Age'] = df['Age'] + 1
 # print(df.head())
+
+
+# Modify a specific value
+df.loc[0, 'Salary'] = 52000
+# print(df.head())
