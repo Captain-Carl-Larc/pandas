@@ -58,8 +58,8 @@ subset_df = df.loc[0:2, ['Name', 'Age']]
 
 # Select rows based on a condition
 adults = df[df['Age'] >= 25]
-print(adults)
+# print(adults)
 
 # Select rows based on multiple conditions
 london_residents = df[(df['City'] == 'London') & (df['Age'] < 30)]
-# print(london_residents)
+print(london_residents)
