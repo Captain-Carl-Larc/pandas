@@ -17,4 +17,7 @@ df = pd.DataFrame(data)
 # print(df.tail(3))
 
 # Get information about the DataFrame (data types, non-null values, etc.)
-print(df.info())
+# print(df.info())
+
+# Get descriptive statistics (mean, std, min, max, etc.) for numerical columns
+print(df.describe())
